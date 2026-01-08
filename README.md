@@ -66,3 +66,18 @@ The dataset is ready for the exploration and cataloging phase.
 ![Dataset preview and record count confirmation](docs/dadosfera_dataset_preview.png)
 
 
+## Item 3 – Data Exploration and Cataloging
+
+### Dataset Cataloging
+The dataset was cataloged with descriptive metadata, domain-related tags, and temporal reference to support discovery and exploration.
+
+---
+
+### Data Lake Logical Organization
+Within the logical Data Lake architecture, the NYC Taxi Trip Records dataset is classified as part of the **Landing Zone**, representing raw ingested data preserved in its original structure.
+
+---
+
+- Dataset catalog view
+
+![Dataset catalog information](docs/dadosfera_dataset_catalog.png)

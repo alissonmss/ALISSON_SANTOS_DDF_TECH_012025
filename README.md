@@ -46,8 +46,8 @@ An ingestion asset was created using the **Novo arquivo** option available in th
 The dataset was imported in Parquet format.
 
 **Ingestion Asset Details:**
-- **Name:** nyc_taxi_trip_records_ingestion
-- **Description:** Manual ingestion of NYC Taxi Trip Records dataset in Parquet format.
+- **Name:** nyc_taxi_trip_records
+- **Description:** manual ingestion of NYC Taxi Trip Records dataset
 
 ---
 

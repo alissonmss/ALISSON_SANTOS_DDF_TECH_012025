@@ -15,7 +15,7 @@ The project planning was organized using a Kanban board in Jira, following agile
 
 Below is a snapshot of the Kanban board used during the project execution.
 
-![Kanban: Technical Case - Dadosfera](docs/kanban.png)
+![Kanban: Technical Case - Dadosfera](docs/jira_kanban.png)
 
 
 ## Item 1 – Dataset Selection and Description
@@ -36,3 +36,36 @@ The NYC Taxi dataset contains **millions of records**, therefore fully complying
 The dataset represents the **urban mobility and transportation domain**, allowing analyses related to operational behavior, temporal patterns, and revenue distribution. This makes it suitable for demonstrating an end-to-end analytical data workflow within the proposed scenario.
 
 This dataset was selected among the examples suggested in the case description.
+
+
+## Item 2 – Data Integration (Integrar)
+
+### Ingestion Asset
+To initiate the data lifecycle within the Dadosfera platform, an ingestion asset was created using the **Novo arquivo** option available in the *Coletar > Importar arquivos* module.
+
+The dataset was imported in Parquet format.
+
+**Ingestion Asset Details:**
+- **Name:** nyc_taxi_trip_records_ingestion
+- **Description:** Manual ingestion of NYC Taxi Trip Records dataset in Parquet format.
+
+---
+
+### Dataset Upload
+After the upload process, the dataset became available as a table within the Dadosfera environment.
+
+![Dataset successfully uploaded and available](docs/dadosfera_dataset_ingestion.png)
+
+---
+
+### Initial Validation
+After ingestion, a basic validation was performed to ensure:
+- Successful data loading
+- Correct schema recognition
+- Availability of records
+
+This step confirms that the dataset is ready to move forward to the exploration and cataloging phase.
+
+![Dataset preview and record count confirmation](docs/dadosfera_dataset_preview.png)
+
+

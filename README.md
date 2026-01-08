@@ -38,7 +38,7 @@ The dataset represents the **urban mobility and transportation domain**, allowin
 This dataset was selected among the examples suggested in the case description.
 
 
-## Item 2 – Data Integration (Integrar)
+## Item 2 – Data Integration
 
 ### Ingestion Asset
 To initiate the data lifecycle within the Dadosfera platform, an ingestion asset was created using the **Novo arquivo** option available in the *Coletar > Importar arquivos* module.

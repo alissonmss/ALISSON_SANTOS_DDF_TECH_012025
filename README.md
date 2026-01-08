@@ -1,6 +1,6 @@
 # Technical Case – Dadosfera
 
-This repository contains the technical case developed for the Dadosfera selection process.
+This repository contains the technical case developed for the Dadosfera selection process, demonstrating an end-to-end data lifecycle using the Dadosfera platform.
 
 ## Dataset
 NYC Taxi Trip Records – Yellow Taxi
@@ -11,7 +11,7 @@ The project follows the data lifecycle approach, covering ingestion, exploration
 
 ## Item 0 – Project Planning
 
-The project planning was organized using a Kanban board in Jira, following agile principles and allowing clear visualization of tasks and progress across the data lifecycle.
+The project planning was organized using a Kanban board in Jira, following agile principles and a Kanban-based workflow.
 
 Below is a snapshot of the Kanban board used during the project execution.
 
@@ -28,7 +28,7 @@ Each record represents a single taxi trip, including attributes related to time,
 ---
 
 ### Dataset and Volume
-The NYC Taxi dataset contains **millions of records**, therefore fully complying with the requirement of containing more than **100,000 records**, as specified in the case instructions.
+The NYC Taxi dataset contains **millions of records**, therefore fully complying with the requirement of having more than **100,000 records**, as specified in the case instructions.
 
 ---
 
@@ -41,7 +41,7 @@ This dataset was selected among the examples suggested in the case description.
 ## Item 2 – Data Integration
 
 ### Ingestion Asset
-To initiate the data lifecycle within the Dadosfera platform, an ingestion asset was created using the **Novo arquivo** option available in the *Coletar > Importar arquivos* module.
+An ingestion asset was created using the **Novo arquivo** option available in the *Coletar > Importar arquivos* module.
 
 The dataset was imported in Parquet format.
 
@@ -59,12 +59,9 @@ After the upload process, the dataset became available as a table within the Dad
 ---
 
 ### Initial Validation
-After ingestion, a basic validation was performed to ensure:
-- Successful data loading
-- Correct schema recognition
-- Availability of records
+After ingestion, a basic validation was performed to confirm successful loading, correct schema recognition, and data availability for downstream analysis.
 
-This step confirms that the dataset is ready to move forward to the exploration and cataloging phase.
+The dataset is ready for the exploration and cataloging phase.
 
 ![Dataset preview and record count confirmation](docs/dadosfera_dataset_preview.png)
 

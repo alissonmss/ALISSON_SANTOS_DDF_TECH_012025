@@ -56,6 +56,10 @@ After the upload process, the dataset became available as a table within the Dad
 
 ![Dataset successfully uploaded and available](docs/dadosfera_dataset_ingestion.png)
 
+The dataset in available here:
+
+![NYC Taxi Trip Records Dataset](https://app.dadosfera.ai/pt-BR/catalog/data-assets/9f5d53fe-f133-42f8-8c6f-675629652512)
+
 ---
 
 ### Initial Validation

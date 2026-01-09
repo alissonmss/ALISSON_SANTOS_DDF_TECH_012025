@@ -121,8 +121,8 @@ A dashboard was created in the Dadosfera Visualization module (Metabase) to supp
 
 The dashboard combines **categorical analysis** and **time-series analysis**, addressing different analytical questions related to taxi operations, payment behavior, and revenue patterns.
 
-The dashboard is available in the following collection:
-![**Alisson Santos – 012023**](https://metabase-treinamentos.dadosfera.ai/dashboard/254-nyc-taxi-trips-for-january-2023)
+The dashboard is available here:
+[**NYC Taxi Trips for January 2023**](https://metabase-treinamentos.dadosfera.ai/dashboard/254-nyc-taxi-trips-for-january-2023)
 
 ---
 

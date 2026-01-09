@@ -56,9 +56,9 @@ After the upload process, the dataset became available as a table within the Dad
 
 ![Dataset successfully uploaded and available](docs/dadosfera_dataset_ingestion.png)
 
-The dataset in available here:
+The dataset is available here:
 
-![NYC Taxi Trip Records Dataset](https://app.dadosfera.ai/pt-BR/catalog/data-assets/9f5d53fe-f133-42f8-8c6f-675629652512)
+[NYC Taxi Trip Records Dataset](https://app.dadosfera.ai/pt-BR/catalog/data-assets/9f5d53fe-f133-42f8-8c6f-675629652512)
 
 ---
 
@@ -107,7 +107,7 @@ The full interactive report is available here:
 The data quality analysis highlighted the following points:
 
 - Strong expected correlations between fare-related variables (`fare_amount`, `total_amount`, `tip_amount`, `trip_distance`).
-- Some categorical fields present high imbalance, such as `improvement_surcharge` and `payment_type`.
+- Some categorical fields present high imbalance, such as `improvement_surcharge` and `store_and_fwd_flag`.
 - Approximately 2.3% of missing values were identified in fields like `passenger_count`, `RatecodeID`, and `airport_fee`.
 - Numeric variables such as `trip_distance` show skewed and zero-inflated distributions.
 
@@ -230,5 +230,4 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 
 ### Final Considerations
 The dashboard delivers an integrated analytical view of the dataset, combining temporal behavior, categorical distributions, and variable relationships.
-These visualizations support exploratory analysis and provide a foundation for further analytical or operational decision-making.
-
+These visualizations support exploratory analysis and contribute to the generation of insights that can inform downstream analytical or decision-making processes.

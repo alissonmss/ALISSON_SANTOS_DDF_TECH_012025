@@ -15,7 +15,7 @@ The project planning was organized using a Kanban board in Jira, following agile
 
 Below is a screenshot of the Kanban board used during the project execution.
 
-![Kanban: Technical Case - Dadosfera](docs/jira_kanban.png)
+![Kanban: Technical Case - Dadosfera](docs/jira_kanban_board.png)
 
 
 ## Item 1 – Dataset Selection and Description

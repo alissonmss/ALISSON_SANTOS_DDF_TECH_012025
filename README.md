@@ -184,7 +184,7 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 ---
 
 ### Visualization 4 – Distribution of Trip Distance Ranges
-To analyze trip distance distribution, distance ranges were defined directly in the query, enabling a histogram-like analysis.
+To analyze trip distance distribution, distance ranges were defined directly in the query.
 
 - **SQL query:**
 ```sql

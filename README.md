@@ -3,7 +3,7 @@
 This repository contains the technical case developed for the Dadosfera selection process, demonstrating an end-to-end data lifecycle using the Dadosfera platform.
 
 ## Dataset
-NYC Taxi Trip Records – Yellow Taxi
+This case uses the NYC Taxi Trips dataset. The analysis focuses on a temporal subset covering **January 2023**.
 
 ## Project Scope
 The project follows the data lifecycle approach, covering ingestion, exploration, data quality, and analytical visualization.
@@ -136,7 +136,7 @@ SELECT
 	COUNT(*) AS total_trips
 FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 	WHERE tpep_pickup_datetime >= '2023-01-01'
-	AND tpep_pickup_datetime <  '2023-02-01'
+	AND tpep_pickup_datetime < '2023-02-01'
 GROUP BY DATE(tpep_pickup_datetime)
 ORDER BY trip_date;
 ```
@@ -155,7 +155,7 @@ SELECT
 	COUNT(*) AS total_trips
 FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 WHERE tpep_pickup_datetime >= '2023-01-01'
-	AND tpep_pickup_datetime <  '2023-02-01'
+	AND tpep_pickup_datetime < '2023-02-01'
 GROUP BY payment_type
 ORDER BY total_trips DESC;
 ```
@@ -174,7 +174,7 @@ SELECT
 	SUM(total_amount) AS total_revenue
 FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 WHERE tpep_pickup_datetime >= '2023-01-01'
-	AND tpep_pickup_datetime <  '2023-02-01'
+	AND tpep_pickup_datetime < '2023-02-01'
 GROUP BY VendorID
 ORDER BY total_revenue DESC;
 ```
@@ -199,7 +199,7 @@ SELECT
 	COUNT(*) AS total_trips
 FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 WHERE tpep_pickup_datetime >= '2023-01-01'
-	AND tpep_pickup_datetime <  '2023-02-01'
+	AND tpep_pickup_datetime < '2023-02-01'
 	AND trip_distance > 0
 GROUP BY distance_range
 ORDER BY total_trips DESC;
@@ -219,7 +219,7 @@ SELECT
 	fare_amount
 FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 WHERE tpep_pickup_datetime >= '2023-01-01'
-	AND tpep_pickup_datetime <  '2023-02-01'
+	AND tpep_pickup_datetime < '2023-02-01'
 	AND trip_distance > 0
 	AND fare_amount > 0;
 ```

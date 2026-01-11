@@ -140,6 +140,7 @@ FROM TB__AJATBM__NYC_TAXI_TRIP_RECORDS_INGESTION
 GROUP BY DATE(tpep_pickup_datetime)
 ORDER BY trip_date;
 ```
+![Total trips per day](docs/query_total_trips_per_day.png)
 
 ![Total trips per day](docs/viz_total_trips_per_day.png)
 
@@ -159,6 +160,7 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 GROUP BY payment_type
 ORDER BY total_trips DESC;
 ```
+![Trips by payment type](docs/query_trips_by_payment_type.png)
 
 ![Trips by payment type](docs/viz_trips_by_payment_type.png)
 
@@ -178,6 +180,7 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 	AND trip_distance > 0
 	AND fare_amount > 0;
 ```
+![Trip distance vs fare amount](docs/query_distance_vs_fare.png)
 
 ![Trip distance vs fare amount](docs/viz_distance_vs_fare.png)
 
@@ -204,6 +207,7 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 GROUP BY distance_range
 ORDER BY total_trips DESC;
 ```
+![Trip distance distribution](docs/query_trip_distance_distribution.png)
 
 ![Trip distance distribution](docs/viz_trip_distance_distribution.png)
 
@@ -223,6 +227,7 @@ WHERE tpep_pickup_datetime >= '2023-01-01'
 GROUP BY VendorID
 ORDER BY total_revenue DESC;
 ```
+![Total revenue by vendor](docs/query_revenue_by_vendor.png)
 
 ![Total revenue by vendor](docs/viz_revenue_by_vendor.png)
 
